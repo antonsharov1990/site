@@ -1,0 +1,518 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.header {
+  width: 100%;
+  height: 794px;
+  background: url("../images/urus.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+h1 {
+  width: 855px;
+  color: rgba(3,3,5,1);
+  position: absolute;
+  top: 193px;
+  left: 360px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 80px;
+  opacity: 1;
+  text-align: left;
+  margin: 0;
+}
+.header>p {
+  width: 502px;
+  color: rgba(3,3,5,1);
+  position: absolute;
+  top: 410px;
+  left: 360px;
+  font-family: Roboto;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+  margin: 0;
+}
+.header>.button {
+  width: 334px;
+  height: 64px;
+  background: rgba(3,3,5,1);
+  padding: 20px 20px;
+  margin: 15px;
+  opacity: 1;
+  position: absolute;
+  top: 576px;
+  left: 360px;
+  overflow: hidden;
+}
+.header>.button>.button_txt {
+  width: 100%;
+  color: rgba(255,255,255,1);
+  position: relative;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+  text-transform: uppercase;
+  align-content: center;
+  margin: 0;
+}
+.header_menu {
+  width: 100%;
+  height: 90px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.menu_items {
+  width: 479px;
+  height: 19px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 35px;
+  left: 717px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.menu_item {
+  color: rgba(0,0,0,1);
+  position: relative;
+  font-family: Roboto;
+  font-size: 15px;
+  opacity: 1;
+  text-align: left;
+  display: flex;
+}
+.luxorides {
+  width: 113px;
+  height: 39px;
+  background: url("../images/luxorides.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 25px;
+  left: 360px;
+  overflow: hidden;
+}
+.main_content {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.main_content>div>h2 {
+  width: 855px;
+  color: rgba(3,3,5,1);
+  position: relative;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 60px;
+  opacity: 1;
+  text-align: left;
+  margin: 0 0 0 360px;
+}
+.card_container {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.car_card {
+  width: 384px;
+  height: 473px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.car_card>div {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.car_card>.button {
+  width: 384px;
+  height: 54px;
+  background: rgba(3,3,5,1);
+  padding: 15px 30px;
+  margin: 15px;
+  opacity: 1;
+  position: relative;
+  overflow: hidden;
+  text-transform: uppercase;
+  color: white;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 16px;
+  text-align: center;
+  justify-content: center;
+}
+.car_title {
+  width: 384px;
+  color: rgba(3,3,5,1);
+  position: absolute;
+  top: 261px;
+  left: 0px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.car_discription {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.car_discription>div>div:nth-child(2) {
+  font-weight: bold;
+}
+
+.car_discription_1 {
+  width: 110px;
+  height: 92px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.car_discription_1>div>span {
+  width: 110px;
+  color: rgba(3,3,5,1);
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+}
+.black_box_1 {
+  width: 34px;
+  height: 34px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background: url("../images/f1.svg");
+  opacity: 1;
+  overflow: hidden;
+  align-self:center;
+}
+.black_box_2 {
+  width: 34px;
+  height: 34px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background: url("../images/f2.svg");
+  opacity: 1;
+  overflow: hidden;
+  align-self:center;
+}
+.black_box_3 {
+  width: 34px;
+  height: 34px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background: url("../images/f3.svg");
+  opacity: 1;
+  overflow: hidden;
+  align-self:center;
+}
+
+.car_discription_3 {
+  width: 110px;
+  height: 92px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.car_discription_3>div>span {
+  width: 110px;
+  color: rgba(3,3,5,1);
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+}
+.car_discription_2 {
+  width: 110px;
+  height: 92px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.car_discription_2>div>span {
+  width: 110px;
+  color: rgba(3,3,5,1);
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+}
+.lamborghini_huracan_spyder {
+  width: 384px;
+  height: 246px;
+  background: url("../images/lamborghini_huracan_spyder.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  overflow: hidden;
+}
+.lamborghini_urus {
+  width: 384px;
+  height: 246px;
+  background: url("../images/lamborghini_urus.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  overflow: hidden;
+}
+.chevrolet_corvette {
+  width: 384px;
+  height: 247px;
+  background: url("../images/chevrolet_corvette.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  overflow: hidden;
+}
+.audi_r8 {
+  width: 384px;
+  height: 246px;
+  background: url("../images/audi_r8.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  overflow: hidden;
+}
+.ferrari_california {
+  width: 384px;
+  height: 246px;
+  background: url("../images/ferrari_california.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  overflow: hidden;
+}
+.chevrolet_camaro {
+  width: 384px;
+  height: 246px;
+  background: url("../images/chevrolet_camaro.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  overflow: hidden;
+}
+.contact {
+  width: 100%;
+  height: 596px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  overflow: hidden;
+  margin: 60px 0 0 0;
+}
+
+.contact>h2 {
+  width: 855px;
+  color: rgba(3,3,5,1);
+  position: relative;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 60px;
+  opacity: 1;
+  text-align: left;
+  margin: 0 0 0 360px;
+}
+
+.notice {
+  width: 645px;
+  color: rgba(92,92,94,1);
+  position: absolute;
+  top: 90px;
+  left: 360px;
+  font-family: Roboto;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.input_div {
+  width: 344px;
+  height: 304px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 171px;
+  left: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.input_div>div>#name {
+  width: 344px;
+  height: 64px;
+  color: rgba(92,92,94,1);
+  position: relative;
+  font-family: Roboto;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.input_div>div>#phone {
+  width: 344px;
+  height: 64px;
+  color: rgba(92,92,94,1);
+  position: relative;
+  font-family: Roboto;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.input_div>div>#space {
+  width: 344px;
+  height: 64px;
+  color: rgba(92,92,94,1);
+  position: relative;
+  font-family: Roboto;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.input_div>.button {
+  width: 344px;
+  height: 64px;
+  background: rgba(3,3,5,1);
+  position: relative;
+}
+.input_div>.button>.button_txt {
+  width: 100%;
+  height: 100%;
+  color: rgba(255,255,255,1);
+  position: relative;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+  margin: 0;
+  align-content: center;
+  text-transform:uppercase;
+}
+.footer_car {
+  width: 969px;
+  height: 506px;
+  background: url("../images/footer_car.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 90px;
+  left: 761px;
+  overflow: hidden;
+}
+.footer {
+  width: 100%;
+  height: 91px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2686px;
+  left: 1px;
+  overflow: hidden;
+}
+.separator {
+  width: 100%;
+  height: 1px;
+  background: rgba(229,229,229,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.luxorides_footer {
+  width: 113px;
+  height: 39px;
+  background: url("../images/luxorides.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 26px;
+  left: 360px;
+  overflow: hidden;
+}
+.copyright {
+  width: 153px;
+  color: rgba(3,3,5,1);
+  position: absolute;
+  top: 37px;
+  left: 1407px;
+  font-family: Roboto;
+  font-size: 15px;
+  opacity: 1;
+  text-align: right;
+}
