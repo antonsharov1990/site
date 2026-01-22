@@ -104,8 +104,8 @@ h1 {
   display: flex;
 }
 .luxorides {
-  width: 113px;
-  height: 39px;
+  width: 100px;
+  height: 45px;
   background: url("../images/luxorides.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -225,6 +225,7 @@ h1 {
   font-size: 16px;
   opacity: 1;
   text-align: center;
+  font-family: Roboto;
 }
 .black_box_1 {
   width: 34px;
@@ -278,6 +279,7 @@ h1 {
   font-size: 16px;
   opacity: 1;
   text-align: center;
+  font-family: Roboto;
 }
 .car_discription_2 {
   width: 110px;
@@ -297,6 +299,7 @@ h1 {
   font-size: 16px;
   opacity: 1;
   text-align: center;
+  font-family: Roboto;
 }
 .lamborghini_huracan_spyder {
   width: 384px;
@@ -493,8 +496,8 @@ h1 {
   overflow: hidden;
 }
 .luxorides_footer {
-  width: 113px;
-  height: 39px;
+  width: 100px;
+  height: 45px;
   background: url("../images/luxorides.png");
   background-repeat: no-repeat;
   background-position: center center;
