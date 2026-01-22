@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 body {
   font-size: 14px;
@@ -47,7 +49,7 @@ h1 {
   height: 64px;
   background: rgba(3,3,5,1);
   padding: 20px 20px;
-  margin: 15px;
+  margin: 15px 0 0 0;
   opacity: 1;
   position: absolute;
   top: 576px;
@@ -188,9 +190,6 @@ h1 {
 .car_title {
   width: 384px;
   color: rgba(3,3,5,1);
-  position: absolute;
-  top: 261px;
-  left: 0px;
   font-family: Roboto;
   font-weight: Bold;
   font-size: 24px;
@@ -201,6 +200,7 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  margin: 20px 20px 0 20px;
 }
 
 .car_discription>div>div:nth-child(2) {
@@ -386,7 +386,7 @@ h1 {
 }
 
 .notice {
-  width: 645px;
+  /* width: 645px; */
   color: rgba(92,92,94,1);
   position: absolute;
   top: 90px;
@@ -395,6 +395,7 @@ h1 {
   font-size: 16px;
   opacity: 1;
   text-align: left;
+  font-weight: normal;
 }
 .input_div {
   width: 344px;
